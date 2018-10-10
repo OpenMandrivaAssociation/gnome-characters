@@ -13,7 +13,7 @@ Group:		Graphical desktop/GNOME
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 
 # This package uses GtkWidget template, which was added in Gjs 1.43.3.
-BuildRequires:	pkgconfig(gjs-1.0) >= 1.43.3
+BuildRequires:	pkgconfig(gjs-1.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	intltool
 BuildRequires:	desktop-file-utils
