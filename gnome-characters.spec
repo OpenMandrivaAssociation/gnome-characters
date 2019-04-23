@@ -62,9 +62,8 @@ desktop-file-install --dir %{buildroot}%{_datadir}/applications \
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/dbus-1/services/%{appname}.service
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
-#{_datadir}/icons/hicolor/*/apps/%{name}.png
-#{_datadir}/icons/hicolor/*/apps/%{name}-symbolic.svg
-#{_datadir}/icons/hicolor/symbolic/apps/gnome-characters-symbolic.svg
+%{_datadir}/icons/hicolor/scalable/apps/org.gnome.Characters.svg
+%{_datadir}/icons/hicolor/symbolic/apps/org.gnome.Characters-symbolic.svg
 %{_datadir}/%{appname}
 %{_datadir}/gnome-shell/search-providers/%{appname}.search-provider.ini
 %{_datadir}/metainfo/%{appname}.appdata.xml
