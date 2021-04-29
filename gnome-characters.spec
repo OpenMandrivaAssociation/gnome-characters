@@ -14,11 +14,13 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 
 # This package uses GtkWidget template, which was added in Gjs 1.43.3.
 BuildRequires:	pkgconfig(gjs-1.0)
+BuildRequires:	cmake
 BuildRequires:	gjs
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	intltool
 BuildRequires:	desktop-file-utils
 BuildRequires:	pkgconfig(appstream-glib)
+BuildRequires:	pkgconfig(libhandy-1)
 BuildRequires:	gobject-introspection-devel
 BuildRequires:	desktop-file-utils
 BuildRequires:	libunistring-devel
