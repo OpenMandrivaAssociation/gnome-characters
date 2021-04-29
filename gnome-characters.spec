@@ -23,7 +23,7 @@ BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:	pkgconfig(libhandy-1)
 BuildRequires:	gobject-introspection-devel
 BuildRequires:	desktop-file-utils
-BuildRequires:	libunistring-devel
+BuildRequires:	pkgconfig(libunistring)
 BuildRequires:	meson
 Requires:	gjs >= 1.43.3
 
