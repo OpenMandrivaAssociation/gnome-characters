@@ -60,7 +60,7 @@ desktop-file-install --dir %{buildroot}%{_datadir}/applications \
 %doc NEWS
 %license COPYING COPYINGv2
 %{_bindir}/%{name}
-%{_datadir}/dbus-1/services/%{appname}.BackgroundService.service
+#{_datadir}/dbus-1/services/%{appname}.BackgroundService.service
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/dbus-1/services/%{appname}.service
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
