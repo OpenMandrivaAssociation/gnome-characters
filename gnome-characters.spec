@@ -2,7 +2,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-characters
-Version:	41.0
+Version:	42.0
 Release:	1
 Summary:	Character map application for GNOME
 # Files from gtk-js-app are licensed under 3-clause BSD.
@@ -16,11 +16,11 @@ Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 BuildRequires:	pkgconfig(gjs-1.0)
 BuildRequires:	cmake
 BuildRequires:	gjs
-BuildRequires:	pkgconfig(gtk+-3.0)
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	intltool
 BuildRequires:	desktop-file-utils
 BuildRequires:	pkgconfig(appstream-glib)
-BuildRequires:	pkgconfig(libhandy-1)
+BuildRequires:	pkgconfig(libadwaita-1)
 BuildRequires:	gobject-introspection-devel
 BuildRequires:	desktop-file-utils
 BuildRequires:	pkgconfig(libunistring)
