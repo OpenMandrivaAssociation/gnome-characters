@@ -3,7 +3,7 @@
 
 Name:		gnome-characters
 Version:	43.1
-Release:	1
+Release:	2
 Summary:	Character map application for GNOME
 # Files from gtk-js-app are licensed under 3-clause BSD.
 # Other files are GPL 2.0 or later.
