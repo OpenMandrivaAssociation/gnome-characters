@@ -2,7 +2,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-characters
-Version:	49.0
+Version:	49.1
 Release:	1
 Summary:	Character map application for GNOME
 # Files from gtk-js-app are licensed under 3-clause BSD.
