@@ -68,5 +68,5 @@ desktop-file-install --dir %{buildroot}%{_datadir}/applications \
 %{_datadir}/icons/hicolor/symbolic/apps/org.gnome.Characters-symbolic.svg
 %{_datadir}/%{appname}
 %{_datadir}/gnome-shell/search-providers/%{appname}.search-provider.ini
-%{_datadir}/metainfo/%{appname}.appdata.xml
+%{_datadir}/metainfo/org.gnome.Characters.metainfo.xml
 %{_libdir}/%{appname}
